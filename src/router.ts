@@ -1,5 +1,4 @@
 import Home from './components/Home.vue'
-import About from './components/About.vue'
 import Blog1 from './Page/Blog1.vue'
 import Blog2 from './Page/Blog2.vue'
 import Blog3 from './Page/Blog3.vue'
@@ -12,10 +11,6 @@ const router = createRouter({
     {
       path: '/',
       component: Home
-    },
-    {
-      path: '/about',
-      component: About
     },
     {
       path: '/Why-People-Love-Nike',

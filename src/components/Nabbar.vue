@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
@@ -14,7 +15,6 @@
                 <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                     <li><router-link to="/">Home</router-link></li>
                     <li><router-link to="">Shopping</router-link></li>
-                    <li><router-link to="/about">About</router-link></li>
                 </ul>
             </div>
         </div>
